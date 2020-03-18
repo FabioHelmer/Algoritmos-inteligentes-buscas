@@ -29,14 +29,3 @@ class VetorOrdenado:
         for i in range(0, self.nElem):
             print(
                 '{} - {}'.format(self.cidades[i].nome, self.cidades[i].distanciaObjetivo))
-
-
-mapa = Mapa()
-vet = VetorOrdenado(5)
-vet.inserir(mapa.portoUniao)  # 203
-vet.inserir(mapa.pauloFrontin)  # 172
-vet.inserir(mapa.balsaNova)  # 41
-vet.mostrar()
-print('------------------------')
-vet.inserir(mapa.palmeiras)  # 59
-vet.mostrar()
